@@ -13,6 +13,8 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
     TextView xData;
     TextView yData;
     TextView zData;
+    TextView laData;
+    TextView loData;
 
     SensorManager sm;
 
@@ -23,13 +25,15 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
         xData = (TextView)findViewById(R.id.xData);
         yData = (TextView)findViewById(R.id.yData);
         zData = (TextView)findViewById(R.id.zData);
-
+        laData = (TextView)findViewById(R.id.laData);
+        loData = (TextView)findViewById(R.id.loData);
 
         sm = (SensorManager)getSystemService(SENSOR_SERVICE);
         xData.setText("");
         yData.setText("");
         zData.setText("");
-
+        laData.setText("");
+        loData.setText("");
     }
 
     @Override
