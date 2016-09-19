@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="info.redspirit.sensorlogapp">
+    <!-- 位置情報 GPSから -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <!-- 位置情報 ネットワークから -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <!-- これは何だろう？？？ -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_UPDATES" />
 
     <application
         android:allowBackup="true"
