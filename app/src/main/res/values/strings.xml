@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">sensorLogApp</string>
+    <string name="acceleroTitle">加速度センサ</string>
+    <string name="x_index">X座標</string>
+    <string name="y_index">Y座標</string>
+    <string name="z_index">Z座標</string>
+    <string name="gpsTitle">GPS</string>
+    <string name="latitude">緯度</string>
+    <string name="longitude">経度</string>
 </resources>
